@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+li, a, .btn-1 {
+	background-color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.h-1 {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.nav__links {
+  background-color: #fff;
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+  color: #37C6F4;
+}
+
+.nav__links li a:hover {
+  color: #FBD21D;
+}
+
+.btn-1 {
+	padding: 9px 25px;
+  background: linear-gradient(-60deg, #FBD21D 50%, #37C6F4 50%);
+  color: #fff;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+/* Our Mission */
+
+.our__mission {
+	color: #E80303;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+p {
+	color: grey;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	letter-spacing: 0.4px;
+	line-height: 25px;
+}
+
+.btn-2 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	padding: 9px 25px;
+	background-color: #FBD21D;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+.btn-2:hover {
+	background-color: rgba(251, 210, 29, 0.8);
+}
+
+.btn-3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	padding: 9px 25px;
+	background-color: #FBD21D;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.btn-3:hover {
+	background-color: #FBD21D;
+	opacity: 0.8;
+}
+
+/* Image With Text */
+
+.container-1 {
+  position: relative;
+  text-align: center;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+/* Bottom Left Text */
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Centered Text */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
